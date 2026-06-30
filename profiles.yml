@@ -1,0 +1,12 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "jyc97173"
+      user: "SUKANTE"
+      role: ACCOUNTADMIN
+      database: TASTY_BYTES_DBT_DB
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 4
